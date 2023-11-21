@@ -1,0 +1,99 @@
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.img-logo{
+    margin-top: -0.4rem;
+}
+.navbar-brand{
+    font-size:23px;
+    font-weight: 700;
+}
+.navbar{
+    background-color: #eee;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.navbar-toggler{
+    margin-left: 7rem;
+}
+.navbar-collapse{
+    margin-top: 0.8rem;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.sign-up{
+    font-weight: 600;
+}
+.login{
+    font-weight: 600;
+}
+
+.wrapper{
+    background-color: #eee;
+    width: var(100vw - 6rem);
+    height: fit-content;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+.filters{
+    background-color: #eee;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.wrapper .divider{
+    border-bottom: gray solid 1px;
+    width: 85%;
+    margin: auto;
+}
+.products{
+    background-color: #eee;
+    height: fit-content;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.filters-item{
+    width: fit-content;
+}
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.infos-item{
+    width: fit-content;
+    border: gainsboro solid 1px;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+}
+.infos .City{
+    background-color: rgb(146, 146, 146);
+    color: #fff;
+}
+.infos .Category{
+    color: #fff;
+    background-color: rgb(146, 146, 146);
+}
+.infos .Price{
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(66, 152, 128);
+}
