@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 body{
     background-color: #fff;
     margin: 0;
@@ -80,7 +81,8 @@ body{
 }
 .infos-item{
     width: fit-content;
-    border: gainsboro solid 1px;
+    /*border: #a49eac solid 1px;*/
+    background-color: #a49eac;
     padding: 0.1rem 0.4rem;
     border-radius: 3px;
 }
@@ -97,3 +99,126 @@ body{
     font-weight: 600;
     background-color: rgb(66, 152, 128);
 }
+
+/*.modal-body {
+    width: 440px;
+    padding: 1rem 1rem ;
+    background-color:#eee ;
+   
+}*/
+
+.login__box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .bx {
+    font-size: 1.25rem;
+    color:#198754;
+  }
+.login__icon{
+    font-size: 1.25rem;
+    color:#198754;
+  }
+  
+  .login__input {
+    border: none;
+    outline: none;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color:  #000000;
+  }
+  
+  .login__input::placeholder {
+    font-size: 0.938rem;
+    font-family: "Poppins", sans-serif;
+    color:  #a49eac;
+  }
+.login__button {
+    display: block;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
+    /*background-color:  #198754;*/
+    color: #198754;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    border-color: #198754;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .login__button:hover {
+    background-color: #198754;
+    color: #ffffff;
+  }
+  
+  .login__account,
+  .login__signin,
+  .login__signup {
+    font-weight: 400;
+    font-size: 0.813rem;
+  }
+  
+  .login__account {
+    color: #000000;
+  }
+  
+  .login__signin,
+  .login__signup {
+    color:  #198754;
+    cursor: pointer;
+  }
+.login__title {
+    font-size: 1.75rem;
+    margin: 0;
+    text-align: center;
+    
+  }
+  
+.login__box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .login__icon {
+    font-size: 1.25rem;
+    color:  #198754;
+  }
+  
+  .login__input {
+    border: none;
+    outline: none;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .login__input::placeholder {
+    font-size: 0.938rem;
+    font-family: "Poppins", sans-serif;
+    color:  #a49eac;
+  }
+  
+ 
+  .modal-content {
+    display: grid;
+    background-color:#eee ;
+    bottom: 1rem;
+    padding: 1rem 1rem ;
+    border-radius: 1rem;
+}
+ 
+ 
