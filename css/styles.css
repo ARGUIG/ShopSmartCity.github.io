@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
+body{
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+.img-logo{
+    margin-top: -0.4rem;
+}
+.navbar-brand{
+    font-size:23px;
+    font-weight: 700;
+}
+.navbar{
+    background-color: #eee;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+.navbar-toggler{
+    margin-left: 7rem;
+}
+.navbar-collapse{
+    margin-top: 0.8rem;
+}
+.sign{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 10px;
+}
+.sign-up{
+    font-weight: 600;
+}
+.login{
+    font-weight: 600;
+}
+
+.wrapper{
+    background-color: #eee;
+    width: var(100vw - 6rem);
+    height: fit-content;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+.filters{
+    background-color: #eee;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.wrapper .divider{
+    border-bottom: gray solid 1px;
+    width: 85%;
+    margin: auto;
+}
+.products{
+    background-color: #eee;
+    height: fit-content;
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.filters-item{
+    width: fit-content;
+}
+.infos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.infos-item{
+    width: fit-content;
+    /*border: #a49eac solid 1px;*/
+    background-color: #a49eac;
+    padding: 0.1rem 0.4rem;
+    border-radius: 3px;
+}
+.infos .City{
+    background-color: rgb(146, 146, 146);
+    color: #fff;
+}
+.infos .Category{
+    color: #fff;
+    background-color: rgb(146, 146, 146);
+}
+.infos .Price{
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(66, 152, 128);
+}
+
+/*.modal-body {
+    width: 440px;
+    padding: 1rem 1rem ;
+    background-color:#eee ;
+   
+}*/
+
+.login__box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .bx {
+    font-size: 1.25rem;
+    color:#198754;
+  }
+.login__icon{
+    font-size: 1.25rem;
+    color:#198754;
+  }
+  
+  .login__input {
+    border: none;
+    outline: none;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color:  #000000;
+  }
+  
+  .login__input::placeholder {
+    font-size: 0.938rem;
+    font-family: "Poppins", sans-serif;
+    color:  #a49eac;
+  }
+.login__button {
+    display: block;
+    padding: 1rem;
+    margin: 2rem 0 0 0;
+    /*background-color:  #198754;*/
+    color: #198754;
+    text-decoration: none;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    border-color: #198754;
+    border-style: solid;
+    border-width: 1px;
+  }
+  
+  .login__button:hover {
+    background-color: #198754;
+    color: #ffffff;
+  }
+  
+  .login__account,
+  .login__signin,
+  .login__signup {
+    font-weight: 400;
+    font-size: 0.813rem;
+  }
+  
+  .login__account {
+    color: #000000;
+  }
+  
+  .login__signin,
+  .login__signup {
+    color:  #198754;
+    cursor: pointer;
+  }
+.login__title {
+    font-size: 1.75rem;
+    margin: 0;
+    text-align: center;
+    
+  }
+  
+.login__box {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 0.5rem;
+    padding: 0.8rem 1rem;
+    background-color: #ffffff;
+    margin-top: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  
+  .login__icon {
+    font-size: 1.25rem;
+    color:  #198754;
+  }
+  
+  .login__input {
+    border: none;
+    outline: none;
+    font-size: 0.938rem;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  .login__input::placeholder {
+    font-size: 0.938rem;
+    font-family: "Poppins", sans-serif;
+    color:  #a49eac;
+  }
+  
+ 
+  .modal-content {
+    display: grid;
+    background-color:#eee ;
+    bottom: 1rem;
+    padding: 1rem 1rem ;
+    border-radius: 1rem;
+}
+ 
+ 
