@@ -25,8 +25,8 @@
         </span>
 
         
-        <span  class=" navbar-toggle ">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span  class=" navbar-toggle " >
+            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -136,7 +136,7 @@
        
     </nav>
     <div class="wrapper">
-        <div class="filters">
+        <div class="filters" id="filter">
             <div class="filters-item">
                 <select class="form-select" aria-label="Default select example">
                     <option selected>City</option>
@@ -150,11 +150,25 @@
             </div>
             <div class="filters-item">
                 <select class="form-select" aria-label="Default select example">
+                    <option selected>Maket</option>
+                    <option value="1">Bim</option>
+                    <option value="2">Merjan</option>
+                    <option value="3">Carrefour</option>
+                </select>
+            </div>
+            <div class="filters-item">
+                <select class="form-select" aria-label="Default select example">
                     <option selected>Category</option>
-                    <option value="1">Clothes</option>
-                    <option value="1">Electronics and Gadgets</option>
-                    <option value="2">Furniture</option>
-                    <option value="3">Cars</option>
+                    <option value="1">Sidi Ali</option>
+                    <option value="1">Beurre / Margarine</option>
+                    <option value="1">Pomme</option>
+                    <option value="2">Tomates</option>
+                    <option value="3">Kasher</option>
+                    <option value="3">Les Pattes</option>
+                    <option value="3">Fromage</option>
+                    <option value="3">Couscous</option>
+                    <option value="3">Huile</option>
+                    <option value="3">Coffe</option>
                 </select>
             </div>
             <form class="d-flex" role="search">
@@ -163,137 +177,415 @@
             </form>
         </div>
         <div class="divider"></div>
+
         <div class="products">
-            <div class="row row-cols-1 row-cols-md-4 g-2">
+            <div class="row row-cols-1 row-cols-sm-5 g-4">
                 <div class="col">
-                    <div class="card">
-                        <img src="/img/1.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card h-100">
+                        <img src="img/couscousdari500g.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Couscous aux herbes</h5>
+                        <div class="txt-info">
+                            <p>•500g</p>
+                            <p>•Warida</p>
                         </div>
-                        <hr>
-                        <div class="infos">
-                            <div class="infos-item City">
-                                City
-                            </div>
-                            <div class="infos-item Category">
-                                Category
-                            </div>
-                            <div class="infos-item Price">
-                                Price : 100MAD
-                            </div>
+                        <div class="price">
+                            <div class="oldPrice">50DH</div>
+                            <div class="newPrice">40DH</div>
                         </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="/img/2.webp" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card h-100">
+                        <img src="img/huileOlive.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Huile Olive 1.5L</h5>
+                        <div class="txt-info">
+                            <p>•Capacité : 1.5L</p>
+                            <p>•Mabrouka</p>
                         </div>
-                        <hr>
-                        <div class="infos">
-                            <div class="infos-item City">
-                                Taourit
-                            </div>
-                            <div class="infos-item Category">
-                                Electronics
-                            </div>
-                            <div class="infos-item Price">
-                                Price : 50MAD
-                            </div>
+                        <div class="price">
+                            <div class="oldPrice">120DH</div>
+                            <div class="newPrice">115DH</div>
                         </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Carrefour
+                        </div>
+                        
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="/img/3.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card h-100">
+                        <img src="img/Beurre.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Beurre </h5>
+                        <div class="txt-info">
+                            <p>•Capacité : 100g</p>
+                            <p>•Astra</p>
                         </div>
-                        <hr>
-                        <div class="infos">
-                            <div class="infos-item City">
-                                Agadir
-                            </div>
-                            <div class="infos-item Category">
-                                Electronics
-                            </div>
-                            <div class="infos-item Price">
-                                Price : 800MAD
-                            </div>
+                        <div class="price">
+                            <div class="oldPrice">20DH</div>
+                            <div class="newPrice">17DH</div>
                         </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Carrefour
+                        </div>
+                        
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="/img/4.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card h-100">
+                        <img src="img/Astra-Margarine-1kg.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Margarine </h5>
+                        <div class="txt-info">
+                            <p>•Capacité : 1Kg</p>
+                            <p>•Astra</p>
                         </div>
-                        <hr>
-                        <div class="infos">
-                            <div class="infos-item City">
-                                Rabat
-                            </div>
-                            <div class="infos-item Category">
-                                Electronics
-                            </div>
-                            <div class="infos-item Price">
-                                Price : 100MAD
-                            </div>
+                        <div class="price">
+                            <div class="oldPrice">8DH</div>
+                            <div class="newPrice">74DH</div>
                         </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="/img/5.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card h-100">
+                        <img src="img/Margarine de table.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Margarine de table </h5>
+                        <div class="txt-info">
+                            <p>•Capacité: 500g</p>
+                            <p>•Magdor</p>
                         </div>
-                        <hr>
-                        <div class="infos">
-                            <div class="infos-item City">
-                                Casablanca
-                            </div>
-                            <div class="infos-item Category">
-                                Category
-                            </div>
-                            <div class="infos-item Price">
-                                Price : 3500MAD
-                            </div>
+                        <div class="price">
+                            <div class="oldPrice">43DH</div>
+                            <div class="newPrice">39H</div>
                         </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Merjan
+                        </div>
+                        
                     </div>
+                    </div>
+                    
                 </div>
                 <div class="col">
-                    <div class="card">
-                        <img src="/img/3.jpeg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <div class="card h-100">
+                        <img src="img/Kasher.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Kasher mouton</h5>
+                        <div class="txt-info">
+                            <p>•350g</p>
+                            <p>•Koutoubiya</p>
                         </div>
-                        <hr>
-                        <div class="infos">
-                            <div class="infos-item City">
-                                Marakech
-                            </div>
-                            <div class="infos-item Category">
-                                Electronics
-                            </div>
-                            <div class="infos-item Price">
-                                Price : 500MAD
-                            </div>
+                        <div class="price">
+                            <div class="oldPrice">15DH</div>
+                            <div class="newPrice">12DH</div>
                         </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
                     </div>
+                    </div>
+                    
                 </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/pomme.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pomme rouge</h5>
+                        <div class="txt-info">
+                            <p>•1Kg</p>
+                            <p>•Naturellle</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">15DH</div>
+                            <div class="newPrice">12.5DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Carrefour
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/tomate.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tomates</h5>
+                        <div class="txt-info">
+                            <p>•1KG</p>
+                            <p>•Naturelle</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">14DH</div>
+                            <div class="newPrice">13DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Merjan
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/tomate-legume.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tomates</h5>
+                        <div class="txt-info">
+                            <p>•1KG</p>
+                            <p>•Naturelle</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">16DH</div>
+                            <div class="newPrice">15DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Carrefour
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/quirit.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fremage</h5>
+                        <div class="txt-info">
+                            <p>•Capacité : 24pieces</p>
+                            <p>•La Vache quirit</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">40DH</div>
+                            <div class="newPrice">38DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/nescafe.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Coffe Nescafe</h5>
+                        <div class="txt-info">
+                            <p>•500g</p>
+                            <p>•Nestlee</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">30DH</div>
+                            <div class="newPrice">28DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Carrefour
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/nestleCaramel.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Nestlee Caramel</h5>
+                        <div class="txt-info">
+                            <p>•397g</p>
+                            <p>•Nestlee</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">45DH</div>
+                            <div class="newPrice">40DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/pattesKayna.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Les Pattes</h5>
+                        <div class="txt-info">
+                            <p>•500g</p>
+                            <p>•Kayna</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">20DH</div>
+                            <div class="newPrice">18DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/pattesKayna2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Les Pattes</h5>
+                        <div class="txt-info">
+                            <p>•Capacité : 1KGg</p>
+                            <p>•Warida</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">42DH</div>
+                            <div class="newPrice">35DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            Carrefour
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="img/plaquetteauxfromage.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Plaquette aux fromage</h5>
+                        <div class="txt-info">
+                            <p>•200g</p>
+                            <p>•Or Blanc</p>
+                        </div>
+                        <div class="price">
+                            <div class="oldPrice">30DH</div>
+                            <div class="newPrice">27DH</div>
+                        </div>
+                        <div class="divider"></div>
+                        <div class="marketStore">
+                            BIM
+                        </div>
+                        
+                    </div>
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="catalog">
+            <h2>
+                Catalogues:
+            </h2>
+        </div>
+
+        <div class="accordion bs-danger-border-subtle  "  id="catalogue">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Catalogue de Merjan
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <img src="/img/cataloguemerjan.png" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Catalogue de Carrefour
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img src="/img/cataloguecarrefour.webp" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Catalogue de BIM
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <img src="/img/cataloguebim.jpg" alt="">
+                </div>
+              </div>
             </div>
         </div>
     </div>
+
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_top">
+                <div class="ssc">
+                    <h4 >SmartShopCity</h4>
+                    <ul class="list">
+                        <li class="items"><a href="#catalogue" class="footer_list_link" ><p>Catalogue</p></a></li>
+                        <li class="items"><a href="#SignIn" class="footer_list_link" ><p>Sing in</p></a></li>
+                        <li class="items"><a href="#signUp" class="footer_list_link" ><p>Sign Up</p></a></li>
+                        <li class="items"><a href="#filter" class="footer_list_link" ><p>Search for the best product!</p></a></li>
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h4>Contact</h4>
+                    <ul class="list">
+                        <li class="items"><p>• GSM: +212xxxxxx</p></li>
+                        <li class="items"><p>• Email : username@enim.ac.ma</p></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="footer_divider">
+            </div>
+            <div class="footer_bottom">Copyright©2023 All Rights Reserved</div>
+        </div>
+    </footer>
 
 </body>
 </html>
