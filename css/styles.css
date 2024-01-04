@@ -105,7 +105,10 @@ body{
 
 .txt-info{
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
+}
+.txt-info p:first-of-type{
+  margin-bottom: 0rem;
 }
 .products .divider{
   margin-top: 1rem;
