@@ -70,6 +70,52 @@
     width: 33vw;
 }
 
+.modal-dialog-catalogue {
+    width: 60vw;
+}
+
+.add-product-form-catalogue {
+    overflow-x: auto;
+    white-space: nowrap;
+    height: 80vh;
+
+}
+
+.image-wrapper {
+    display: flex;
+    overflow-x: auto;
+}
+
+.image-wrapper img{
+    margin-right: 20px;
+    height: 300px;
+    width: 200px;
+}
+
+.image-container {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.image-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ctalogue-form-input{
+    margin: 20px;
+}
+
+.ctalogue-form{
+    margin-top: 30px;
+    position: relative;
+}
+
+.ctalogue-form-input-button{
+    position: absolute;
+    right: 30px;
+}
+
 .add-product-form{
     display: grid;
     align-items: center;
@@ -116,9 +162,17 @@
 [data-add-product-btn] {
     font-size: large;
     font-weight: 600;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin-right: -11px;
+    padding-left: 25px;
+    padding-right: 25px; 
+}
 
+[data-add-catalog-btn] {
+    font-size: large;
+    font-weight: 600;
+    margin-right: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .table {
@@ -134,10 +188,10 @@
     background-color: #eee;
     border-color: rgb(74, 74, 74);
     color: rgb(74, 74, 74);
-
-    
-
 }
+
+
+
 
 
 
